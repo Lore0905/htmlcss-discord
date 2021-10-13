@@ -22,6 +22,10 @@ img{
     width: 100%;
     background-color:#265de8;
 }
+.cont.main {
+    width: 100%;
+    background-color:white;
+}
 /* buttons */
 .col-left > .button{
     text-align: right;
@@ -36,11 +40,17 @@ img{
 /* colonne main */
 .col-img, .col-text{
     float:left;
-    width: 50%;
+    padding-top: 150px;
     /* test */
-    background-color: orchid;
-    height: 70px;
     border:1px solid black; 
+}
+/* colonna immagine */
+.col-img{
+    width: 70%;
+}
+/* colonna text */
+.col-text{
+    width: 30%;
 }
 /* containr interno */
 .container{
@@ -137,10 +147,19 @@ img{
     background-color: black;
     color: white;
 }
-
-
-
 /* seconda sezione */
+.col-text > h2{
+    line-height: 60px;
+    font-size: 40px;
+    padding:20px 0;
+}
+.col-text > p{
+    line-height: 30px;
+    font-size: 20px;
+}
+.col-img > img{
+    width: 80%;
+}
 /* terza sezione */
 /* quarta sezione */
 /* quinta sezione */
