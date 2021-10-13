@@ -9,25 +9,9 @@
 body{
 
 }
-.col{
-    float:left;
-    width: 15%;
-    /* test */
-    background-color: aqua;
-    height: 30px;
-}
-.col-img, .col-text{
 
-    float:left;
-    width: 50%;
-    /* test */
-    background-color: orchid;
-    height: 50px;
-    
-}
-.col-fo{
 
-}
+
 .clearfix{
     display: table;
     content:"";
@@ -50,6 +34,14 @@ body{
     height: 70px;
     background-color:#3161e0;
 }
+.col{
+    float:left;
+    width: 15%;
+    /* test */
+    background-color: aqua;
+    height: 30px;
+    border-right: 1px solid black;
+}
 .col-midle{
     width: 70%;
 }
@@ -58,6 +50,14 @@ body{
 
 /* MAIN */
 
+.col-img, .col-text{
+    float:left;
+    width: 50%;
+    /* test */
+    background-color: orchid;
+    height: 70px;
+    border:1px solid black; 
+}
 /* prima sezione */
 .cont.main{
     /* test */
@@ -82,13 +82,14 @@ body{
 }
 .col-fo{
     float:left;
-    width: 15%;
+    width: calc( 75% / 4);
     /* test */
     background-color: rgb(112, 170, 218);
     height: 50px;
+    border-right: 1px solid black;
 }
 .social.col-fo{
-    width: 40%;
+    width: 25%;
 
     /* test */
     background-color: peru;
