@@ -7,9 +7,11 @@
 
 /* COMMONS */
 body{
-
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-
+img{
+    width: 100%;
+}
 
 
 .clearfix{
@@ -20,8 +22,7 @@ body{
 .container{
     margin: auto;
     width:70%;
-/* test */
-    background-color:red ;
+    line-height: 70px;
     height: 70px;
 }
 /* END COMMONS */
@@ -29,21 +30,39 @@ body{
 /* HEADER */
 .cont {
     width: 100%;
-    
-    /* TEST */
-    height: 70px;
     background-color:#3161e0;
 }
 .col{
     float:left;
     width: 15%;
-    /* test */
-    background-color: aqua;
-    height: 30px;
-    border-right: 1px solid black;
+}
+.col-right > img{
+    vertical-align: middle;
+    width: 120px;
 }
 .col-midle{
     width: 70%;
+    text-align: center;
+}
+.col-midle > ul > li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 3%;
+}
+.col-midle > ul > li > a{
+    text-decoration: none;
+    color: white;
+}
+.button{
+text-align: right;
+}
+.button > a{
+    text-decoration: none;
+    padding:8px 16px;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+
 }
 /* END HEADER */
 
