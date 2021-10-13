@@ -16,6 +16,18 @@ body{
     background-color: aqua;
     height: 30px;
 }
+.col-img, .col-text{
+
+    float:left;
+    width: 50%;
+    /* test */
+    background-color: orchid;
+    height: 50px;
+    
+}
+.col-fo{
+
+}
 .clearfix{
     display: table;
     content:"";
@@ -48,7 +60,11 @@ body{
 
 /* prima sezione */
 .cont.main{
+    /* test */
     background-color: cornsilk;
+}
+.container.text{
+    position: relative;
 }
 /* seconda sezione */
 /* terza sezione */
@@ -63,5 +79,18 @@ body{
 /* test */
 .cont.footer{
     background-color: greenyellow;
+}
+.col-fo{
+    float:left;
+    width: 15%;
+    /* test */
+    background-color: rgb(112, 170, 218);
+    height: 50px;
+}
+.social.col-fo{
+    width: 40%;
+
+    /* test */
+    background-color: peru;
 }
 /* END FOOTER */
