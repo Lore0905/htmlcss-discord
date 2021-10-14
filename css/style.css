@@ -41,8 +41,6 @@ img{
 .col-img, .col-text{
     float:left;
     padding-top: 150px;
-    /* test */
-    border:1px solid black; 
 }
 /* colonna immagine */
 .col-img{
@@ -161,6 +159,12 @@ img{
     width: 80%;
 }
 /* terza sezione */
+.cont.main.grey{
+    background-color:#f6f6f6;
+}
+.wave-1hkxOo{
+    background-color: #f6f6f6;
+}
 /* quarta sezione */
 /* quinta sezione */
 
@@ -170,9 +174,6 @@ img{
 /* FOOTER */
 
 /* test */
-.cont.footer{
-    background-color: greenyellow;
-}
 .col-fo{
     float:left;
     width: calc( 75% / 4);
