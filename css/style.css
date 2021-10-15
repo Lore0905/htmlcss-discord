@@ -3,6 +3,7 @@
     padding: 0;
     margin:0;
     box-sizing: border-box;
+
 }
 
 /* COMMONS */
@@ -58,7 +59,9 @@ img{
 .button{
     display: inline-block;
 }
-
+h2{
+    font-size: 40px;
+}
 /* END COMMONS */
 
 /* HEADER */
@@ -148,9 +151,9 @@ img{
 /* seconda sezione */
 .col-text > h2{
     line-height: 60px;
-    font-size: 40px;
     padding:20px 0;
 }
+
 .col-text > p{
     line-height: 30px;
     font-size: 20px;
@@ -162,11 +165,37 @@ img{
 .cont.main.grey{
     background-color:#f6f6f6;
 }
-.wave-1hkxOo{
-    background-color: #f6f6f6;
+.wave > svg{
+    color: #f6f6f6;
+    display: block;
 }
+/* rotazione della wave */
+.wave.rotate > svg{
+    transform: rotate(180deg);
+}
+
 /* quarta sezione */
+.last-part-main{
+    text-align: center;
+}
+.last-part-main > p{
+padding: 40px 5%;
+font-size: 20px;
+}
 /* quinta sezione */
+.button-end-main{
+    text-align:center;
+}
+.button-end-main > h4{
+    padding-bottom: 35px;
+    font-size: 25px;
+}
+#last-button{
+    margin: 0;
+    color: white;
+    background-color: #8ea1e1;
+}
+
 
 /* END MAIN */
 
