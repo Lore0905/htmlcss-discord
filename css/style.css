@@ -173,7 +173,10 @@ h2{
 .wave.rotate > svg{
     transform: rotate(180deg);
 }
-
+/* posizione seconda immagine */
+.col-img.odd{
+    text-align: right;
+}
 /* quarta sezione */
 .last-part-main{
     text-align: center;
@@ -195,6 +198,7 @@ font-size: 20px;
     margin: 0;
     color: white;
     background-color: #8ea1e1;
+    background-image: url(../img/stars.svg);
 }
 
 
