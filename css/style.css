@@ -207,19 +207,38 @@ font-size: 20px;
 
 /* FOOTER */
 
-/* test */
+/* container footer color */
+.cont.footer{
+    background-color: #23272a;
+}
+
 .col-fo{
     float:left;
     width: calc( 75% / 4);
+    padding: 60px 0;
     /* test */
-    background-color: rgb(112, 170, 218);
-    height: 50px;
     border-right: 1px solid black;
 }
+/* PRIMA COLONNA */
 .social.col-fo{
     width: 25%;
-
-    /* test */
-    background-color: peru;
 }
+.social.col-fo > h5{
+    color: #7289da;
+    font-size: 30px;
+}
+/* bandiera italiana */
+.leanguage > img{
+    width:20px;
+    display: inline-block;
+}
+/* social */
+.icon-social > ul > li{
+    list-style: none;
+}
+.icon-social i{
+    display: inline-block;
+}
+
+/* END PRIMA COLONNA */
 /* END FOOTER */
