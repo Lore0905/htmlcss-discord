@@ -216,8 +216,6 @@ font-size: 20px;
     float:left;
     width: calc( 75% / 4);
     padding: 60px 0;
-    /* test */
-    border-right: 1px solid black;
 }
 /* PRIMA COLONNA */
 .social.col-fo{
@@ -226,18 +224,42 @@ font-size: 20px;
 .social.col-fo > h5{
     color: #7289da;
     font-size: 30px;
+    padding-right: 5px;
 }
 /* bandiera italiana */
 .leanguage > img{
     width:20px;
     display: inline-block;
 }
+/* colore leanguage */
+.leanguage{
+    color:white;
+    padding:20px 0;
+}
 /* social */
 .icon-social > ul > li{
     list-style: none;
+    padding-right:10px;
 }
-.icon-social i{
+/* display icone */
+.icon-social > ul{
     display: inline-block;
+    color:white;
+}
+/* delete pointed list */
+.col-fo li{
+    list-style: none;
+    padding-bottom: 10px;
+} 
+/* title col-fo */
+.col-fo h6{
+    color: #7289da;
+    font-size: 18px;
+}
+/* colore link col-fo */
+.col-fo a{
+    color:white;
+    text-decoration: none;
 }
 
 /* END PRIMA COLONNA */
