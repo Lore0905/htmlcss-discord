@@ -195,6 +195,9 @@ h2{
 padding: 40px 5%;
 font-size: 20px;
 }
+.last-part-main > h2{
+    padding-top:150px;
+}
 /* quinta sezione */
 .button-end-main{
     text-align:center;
